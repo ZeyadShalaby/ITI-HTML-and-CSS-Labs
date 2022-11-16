@@ -1,0 +1,91 @@
+/*this is the style sheet for the navigation bar*/
+
+body{
+    margin: 0;
+    
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: grey;
+}
+
+button:hover{
+    background-color: red;
+}
+
+header{
+    background-color: grey;
+}
+
+header ::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: right;
+    padding: 10px 0;
+    width: 120px;
+    height: 70px;
+
+}
+
+nav{
+    float: left;
+    overflow: hidden;
+}
+
+nav ul {
+
+    margin: 20px;;
+    padding:0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 70px;
+    padding: 20px; 
+
+    position: relative;
+
+}
+
+
+nav ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+nav a:hover{
+    color:whitesmoke;
+
+}
+
+nav a::before{
+    content:'';
+    display: block;
+    height: 5px;
+    width:100%;
+    background-color: red;
+
+    position: absolute;
+    top: 0;
+    width:0%;
+}
+
+nav a:hover::before{
+    width:100%
+}
+

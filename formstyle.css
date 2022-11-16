@@ -1,0 +1,98 @@
+/*this is the style sheet for the Registeration Form*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    background-size: 280px;
+}
+
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 32px;
+}
+
+.compulsory{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100px;
+    text-decoration: blanchedalmond;
+    text-emphasis: 100%;
+}
+
+.asterik{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+div.register{
+    width: 100%;
+    border-radius: 0px;
+    border:3px solid;
+    background-color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    box-shadow: 2px 2px 15px;
+    font-size: 16px;
+}
+
+div.box{
+    border-radius: 0px;
+    border: 5px solid;
+    position: relative;
+    width:700px;
+    height: 600px;
+    box-shadow: 2px 2px 15px;
+    margin: auto;
+    bottom: 0;
+    border-color: grey;
+    background-color: whitesmoke;
+    
+}
+
+label{
+
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+input #name{
+    width:300px;
+    border: 1px solid;
+    border-radius: 2px;
+    outline:0;
+    padding: 7px;
+    background-color: white;
+    box-shadow: inset 1px, 1px, 5px rgb(0 ,0.5 ,0);
+}
+
+
+
+div.submit{
+    width: 10;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1600;
+    border:0;
+    border-radius: 5px;
+    min-width: 100px;
+    min-height: 5px;
+    padding-left: 100px;
+    cursor: pointer;
+
+
+}
+
